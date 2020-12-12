@@ -1,0 +1,30 @@
+{
+  "name": "@ycu-engine/force-const",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build",
+    "postinstall": "typesync || :",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycu-engine/force-const.git"
+  },
+  "author": "YutaUra",
+  "contributors": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ycu-engine/force-const/issues"
+  },
+  "homepage": "https://github.com/ycu-engine/force-const#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3",
+    "typesync": "^0.8.0"
+  }
+}
